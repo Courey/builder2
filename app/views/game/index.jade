@@ -1,0 +1,12 @@
+extends ../shared/template
+
+block content
+  h1
+  #loginControls
+    input#userName(type='text', autofocus=true, placeholder='username')
+    button#login Login
+
+  #dashboard
+  #forest
+block scripts
+  script(src='/js/es6/compiled/game.js')
